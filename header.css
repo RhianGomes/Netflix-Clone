@@ -1,0 +1,109 @@
+body{
+    background-image: url(imagens/papel-de-parede.png);
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo-container img {
+    width: 150px;
+    height: auto;
+}
+
+#logo-container {
+    padding-left: 124px;
+}
+
+.header-actions {
+    padding-right: 171px;
+}
+
+.header-actions a {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: blue;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+#selectIdioma {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+#hero-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#hero-section h1 {
+    width: 586px;
+    font-size: 56px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#hero-subtitle h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-left: 5px;
+    text-align: center;
+    color: white;
+}
+
+#hero-description p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 15px;
+}
+
+#email-form input {
+    width: 500px;
+    height: 52px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+#email-form label {
+    align-items: start;
+    position: absolute;
+    color: gray;
+    pointer-events: none;
+    left: 400px;
+}
+
+#email-form button {
+    display: flex;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    padding: 14px 20px;
+    align-items: center;
+    cursor: pointer;
+}
