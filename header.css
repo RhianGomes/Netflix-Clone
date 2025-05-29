@@ -75,6 +75,7 @@ body{
     align-items: center;
     position: relative;
     padding-top: 15px;
+
 }
 
 #email-form input {
@@ -107,3 +108,4 @@ body{
     align-items: center;
     cursor: pointer;
 }
+
