@@ -1,0 +1,82 @@
+#emAltaText h3{
+    color: white;
+    
+}
+
+#emAlta{
+    margin-top: 73px;
+    padding-left: 150px;
+    
+}
+
+#emAlta h3{
+    padding-bottom: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.galeria-numeros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.galeria-numeros img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.galeria-numeros button{
+    background: none;
+    border: none;
+
+    padding-right: 215px;
+}
+
+#btn-seta img{
+    width: 25px;
+    height: auto;
+
+    background-color: #555;
+    padding: 45px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-seta img:hover{
+    background-color: blue;
+}
+
+.item-numero{
+position: relative;
+}
+
+.imgNum{
+    position: absolute;
+    left: -35px;
+    padding-top: 118px;
+}
+
+#num{
+    padding-top: 137px;
+}
+.item-numero img:nth-child(3){
+    width: 70px;
+    height: auto;
+}
+
+.item-numero img:nth-child(1){
+    width: 35px;
+    height: auto;
+}
+
+.logoN{
+    position: absolute;
+}
+
+.item-numero:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
