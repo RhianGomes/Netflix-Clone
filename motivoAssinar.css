@@ -1,0 +1,45 @@
+.motivoAssinar{
+    margin-top: 80px;
+    color: white;
+}
+
+
+.motivoAssinar h2{
+    padding-left: 157px;
+}
+
+.galeria{
+    padding: 25px 15px 15px;   
+    width: 240px;
+    height: 350px;
+    border-radius: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0D0D1A, #1A1033);
+
+    position: relative;
+}
+
+
+.galeria h3{
+    padding-bottom: 18px;
+}
+
+
+.galeria span{
+    color: #999191;
+}
+
+
+.blocos{
+    gap: 10px;
+    display: flex;
+    padding: 15px 157px;
+}
+
+
+.icone{
+    position: absolute;
+    top: 250px;
+    left: 145px;
+}
