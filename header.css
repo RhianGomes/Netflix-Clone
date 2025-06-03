@@ -32,9 +32,12 @@ body{
     color: white;
 }
 
-#selectIdioma {
+.selectIdioma {
     padding: 10px 15px;
     border-radius: 8px;
+
+    background-color: rgba(48, 48, 48, 0.459);
+    color: white;
 }
 
 #hero-section {
