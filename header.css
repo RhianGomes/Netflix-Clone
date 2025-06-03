@@ -69,7 +69,7 @@ body{
     color: white;
 }
 
-#email-form {
+.email-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ body{
 
 }
 
-#email-form input {
+.email-form input {
     width: 500px;
     height: 52px;
     border: 2px solid gray;
@@ -86,7 +86,7 @@ body{
     padding-left: 10px;
 }
 
-#email-form label {
+.email-form label {
     align-items: start;
     position: absolute;
     color: gray;
@@ -94,7 +94,7 @@ body{
     left: 400px;
 }
 
-#email-form button {
+.email-form button {
     display: flex;
     text-decoration: none;
     background-color: blue;

@@ -5,6 +5,11 @@
     padding-left: 164px;
     padding-top: 10px;
     gap: 5px;
+
+    & h2{
+        padding-top: 35px;
+        padding-bottom: 12px;
+    }
 }
 
 .duvidasRecentes{

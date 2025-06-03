@@ -1,0 +1,11 @@
+#form-2{
+    margin-top: 50px;
+
+    & p{
+        color: white;
+        text-align: center;
+
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
