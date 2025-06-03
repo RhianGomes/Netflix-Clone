@@ -1,226 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Netflix Clone- assitir a séries onlines, assistir a filmes onlines
-    </title>
-    <link rel="shortcut icon" href="imagens/logo-n.png" type="image/x-icon" />
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <header id="header">
-      <div id="logo-container">
-        <img src="imagens/logo.png" alt="Logo Netflix" />
-      </div>
-
-      <div class="header-actions">
-        <select class="selectIdioma">
-          <option value="pt-br">Português</option>
-          <option value="en-us">Inglês</option>
-        </select>
-        <a href="#">Entrar</a>
-      </div>
-    </header>
-
-    <div id="hero-section">
-      <h1>Filmes, séries e muito mais, sem limites</h1>
-    </div>
-    <div id="hero-subtitle">
-      <h2>A partir de R$ 20,90. Cancele quando quiser.</h2>
-    </div>
-    <div id="hero-description">
-      <p>
-        Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone - assistir a séries online, assistir a filmes online</title>
+  <link rel="shortcut icon" href="imagens/logo-n.png" type="image/x-icon" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header id="header">
+    <div id="logo-container">
+      <img src="imagens/logo.png" alt="Logo Netflix" />
     </div>
 
-    <form class="email-form">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required placeholder=" " />
-      <button type="submit">Vamos lá</button>
-    </form>
+    <div class="header-actions">
+      <select class="selectIdioma">
+        <option value="pt-br">Português</option>
+        <option value="en-us">Inglês</option>
+      </select>
+      <a href="#">Entrar</a>
+    </div>
+  </header>
 
-    <main>
-      <div id="linha-superior"></div>
+  <div id="hero-section">
+    <h1>Filmes, séries e muito mais, sem limites</h1>
+  </div>
 
-      <div id="preco">
-        <img src="imagens/pipoca-no-balde.png" alt="" />
-        <div id="promo">
-            <div id="promotext">
-              <h2>A Netflix-clone que você adora por apenas R$ 20,90.</h2> 
-              <p>Aproveite nossa opção mais acessível, o plano com anúncios.</p>
-            </div>
-            <a href="#" class="btn">Saiba mais</a>
+  <div id="hero-subtitle">
+    <h2>A partir de R$ 20,90. Cancele quando quiser.</h2>
+  </div>
+
+  <div id="hero-description">
+    <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+  </div>
+
+  <form class="email-form">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required placeholder=" " />
+    <button type="submit">Vamos lá</button>
+  </form>
+
+  <main>
+    <div id="linha-superior"></div>
+
+    <div id="preco">
+      <img src="imagens/pipoca-no-balde.png" alt="Balde de pipoca" />
+      <div id="promo">
+        <div id="promotext">
+          <h2>A Netflix-clone que você adora por apenas R$ 20,90.</h2>
+          <p>Aproveite nossa opção mais acessível, o plano com anúncios.</p>
+        </div>
+        <a href="#" class="btn">Saiba mais</a>
+      </div>
+    </div>
+
+    <div id="emAlta">
+      <div id="emAltaText">
+        <h3>Em alta</h3>
+      </div>
+      <div class="galeria-numeros">
+        <div class="item-numero">
+          <img src="imagens/logo-n.png" class="logoN" alt="Logo N" />
+          <img src="imagens/capa1.jpg" alt="Capa 1" />
+          <img src="imagens/img-num1.png" class="imgNum" id="num" alt="Número 1" />
+        </div>
+
+        <div class="item-numero">
+          <img src="imagens/logo-n.png" class="logoN" alt="Logo N" />
+          <img src="imagens/capa2.jpg" alt="Capa 2" />
+          <img src="imagens/img-num2.png" class="imgNum" alt="Número 2" />
+        </div>
+
+        <div class="item-numero">
+          <img src="imagens/logo-n.png" class="logoN" alt="Logo N" />
+          <img src="imagens/capa3.jpg" alt="Capa 3" />
+          <img src="imagens/img-num3.png" class="imgNum" alt="Número 3" />
+        </div>
+
+        <div class="item-numero">
+          <img src="imagens/logo-n.png" class="logoN" alt="Logo N" />
+          <img src="imagens/capa4.jpg" alt="Capa 4" />
+          <img src="imagens/img-num4.png" class="imgNum" alt="Número 4" />
+        </div>
+
+        <button type="button" id="btn-seta">
+          <img src="imagens/img-seta.png" alt="Seta" />
+        </button>
+      </div>
+    </div>
+
+    <div class="motivoAssinar">
+      <h2>Mais motivos para assinar</h2>
+      <div class="blocos">
+        <div class="galeria">
+          <h3>Aproveite na TV</h3>
+          <span>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</span>
+          <div class="icone">
+            <img src="imagens/icone-monitor.png" alt="Ícone de monitor representando assistir na TV" />
+          </div>
+        </div>
+
+        <div class="galeria">
+          <h3>Baixe séries para assistir offline</h3>
+          <span>Salve seus títulos favoritos e sempre tenha algo para assistir.</span>
+          <div class="icone">
+            <img src="imagens/icone-redondo.png" alt="Ícone representando download de séries para assistir offline" />
+          </div>
+        </div>
+
+        <div class="galeria">
+          <h3>Assista onde quiser</h3>
+          <span>Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.</span>
+          <div class="icone">
+            <img src="imagens/icone-luneta.png" alt="Ícone de luneta representando assistir onde quiser" />
+          </div>
+        </div>
+
+        <div class="galeria">
+          <h3>Crie perfis para crianças</h3>
+          <span>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</span>
+          <div class="icone">
+            <img src="imagens/icone-rosto-quadrado.png" alt="Ícone de rosto representando perfis para crianças" />
+          </div>
         </div>
       </div>
+    </div>
 
-      <div id="emAlta">
-        <div id="emAltaText">
-          <h3>Em alta</h3>
-        </div>
-        <div class="galeria-numeros">
-          <div class="item-numero">
-            <img src="imagens/logo-n.png" class="logoN"  alt=" Logo N">
-            <img src="imagens/capa1.jpg" alt="Capa1">
-            <img src="imagens/img-num1.png" class="imgNum" id="num" alt="Número 1">
-          </div>
+    <div class="duvidas">
+      <h2>Perguntas frequentes</h2>
 
-          <div class="item-numero">
-            <img src="imagens/logo-n.png" class="logoN" alt="Logo N">
-            <img src="imagens/capa2.jpg" alt="Capa 2">
-            <img src="imagens/img-num2.png"class="imgNum" alt="Número 2">
-          </div>
-
-          <div class="item-numero">
-            <img src="imagens/logo-n.png" class="logoN" alt="Logo N">
-            <img src="imagens/capa3.jpg" alt="Capa 3">
-            <img src="imagens/img-num3.png" class="imgNum" alt="Número 3">
-          </div>
-
-          <div class="item-numero">
-            <img src="imagens/logo-n.png" class="logoN" alt="Logo N">
-            <img src="imagens/capa4.jpg" alt="Capa 4">
-            <img src="imagens/img-num4.png" class="imgNum" alt="Número 4">
-          </div>
-          <button type="button" id="btn-seta">
-            <img src="imagens/img-seta.png"  alt="Seta">
-          </button>
-        </div>
+      <div class="duvidasRecentes">
+        <h4>O que é a Netflix?</h4>
+        <img src="imagens/img.png" alt="Ícone ilustrativo para a pergunta sobre o que é a Netflix" />
       </div>
 
-      <div class="motivoAssinar">
-        <h2>Mais motivos para assirnar</h2>
-        <div class="blocos">
-          <div class="galeria">
-            <h3>Aproveite na TV</h3>
-            <span>Assina em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</span>
-            <div class="icone">
-              <img src="imagens/icone-monitor.png" alt="">
-            </div>
-          </div>
-
-          <div class="galeria">
-            <h3>Baixe séries para assistir offline</h3>
-            <span>Salve seus títulos favoritos e sempre tenha algo para assistir.</span>
-            <div class="icone">
-              <img src="imagens/icone-redondo.png" alt="">
-            </div>
-          </div>
-
-          <div class="galeria">
-            <h3>Assistir onde quiser</h3>
-            <span>Assina a quantos filmes e séries quiser no celular, tablet, laptop e TV</span>
-            <div class="icone">
-              <img src="imagens/icone-luneta.png" alt="">
-            </div>
-          </div>
-
-          <div class="galeria">
-            <h3>Crie perfis para crianças</h3>
-            <span>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso. </span>
-            <div class="icone">
-              <img src="imagens/icone-rosto-quadrado.png" alt="">
-            </div>
-          </div>
-        </div>
+      <div class="duvidasRecentes">
+        <h4>Quanto custa a Netflix?</h4>
+        <img src="imagens/img.png" alt="Ícone ilustrativo para a pergunta sobre o custo da Netflix" />
       </div>
 
-      <div class="duvidas">
-        <h2>Perguntas frequentes</h2>
-
-        <div class="duvidasRecentes"> 
-          <h4>O que é a Netflix?</h4>
-          <img src="imagens/img.png" alt="">
-        </div>
-
-        <div class="duvidasRecentes">
-          <h4>Quanto custa a Netflix?</h4>
-          <img src="imagens/img.png" alt="">
-        </div>
-
-        <div class="duvidasRecentes">
-          <h4>Onde posso assitir?</h4>
-          <img src="imagens/img.png" alt="">
-        </div>
-
-        <div class="duvidasRecentes">
-          <h4>Como faço para cancelar?</h4>
-          <img src="imagens/img.png" alt="">
-        </div>
-
-        <div class="duvidasRecentes">
-          <h4>O que eu posso assistir na Netflix?</h4>
-          <img src="imagens/img.png" alt="">
-        </div>
-
-        <div class="duvidasRecentes">
-          <h4>A Netflix é adequada para crianças?</h4>
-          <img src="imagens/img.png" alt="">
-        </div>
+      <div class="duvidasRecentes">
+        <h4>Onde posso assistir?</h4>
+        <img src="imagens/img.png" alt="Ícone ilustrativo para a pergunta sobre onde assistir" />
       </div>
 
-      <div id="form-2">
-        <p>Quer assistir? informe seu email para criar ou reiniciar sua assinatura.</p>
-        
-        <form class="email-form" >
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" required placeholder=" " />
-          <button type="submit">Vamos lá</button>
-        </form>
+      <div class="duvidasRecentes">
+        <h4>Como faço para cancelar?</h4>
+        <img src="imagens/img.png" alt="Ícone ilustrativo para a pergunta sobre como cancelar" />
       </div>
 
-      <div id="ligacao">
-        <h2>Dúvidas? Ligue para <a href="#">0800 070 7070</a> </h2>
+      <div class="duvidasRecentes">
+        <h4>O que eu posso assistir na Netflix?</h4>
+        <img src="imagens/img.png" alt="Ícone ilustrativo para a pergunta sobre o que assistir na Netflix" />
       </div>
-      <div class="ajuda">
-          <div class="links">
-            <ul>
-              <li><a href="#">Perguntas frequentes</a></li>
-              <li><a href="#">Relações com invetidores</a></li>
-              <li><a href="#">Formas de assistir</a></li>
-              <li><a href="#">Informações corporativas</a></li>
-              <li><a href="#">Só na Netflix-clone</a></li>
-            </ul>
-          </div>
 
-          <div class="links">
-            <ul>
-              <li><a href="#">Central de Ajuda</a></li>
-              <li><a href="#">Carreiras</a></li>
-              <li><a href="#">Termos de Uso</a></li>
-              <li><a href="#">Entre em contato</a></li>
-            </ul>
-          </div>
-
-          <div class="links">
-            <ul>
-              <li><a href="#">Conta</a></li>
-              <li><a href="#">Resgatar cartão pré-pago</a></li>
-              <li><a href="#">Privacidade</a></li>
-              <li><a href="#">Teste de velocidade</a></li>
-            </ul>
-          </div>
-
-          <div class="links">
-            <ul>
-              <li><a href="#">Media center</a></li>
-              <li><a href="#">Comprar cartão pré-pago</a></li>
-              <li><a href="#">Preferências de cookies</a></li>
-              <li><a href="#">Avisos legais</a></li>
-            </ul>
-          </div>
+      <div class="duvidasRecentes">
+        <h4>A Netflix é adequada para crianças?</h4>
+        <img src="imagens/img.png" alt="Ícone ilustrativo para a pergunta sobre a Netflix ser adequada para crianças" />
       </div>
-    </main>
+    </div>
 
-    <footer>
-       <select class="selectIdioma">
-          <option value="pt-br">Português</option>
-          <option value="en-us">Inglês</option>
-        </select>
+    <div id="form-2">
+      <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+      <form class="email-form">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder=" " />
+        <button type="submit">Vamos lá</button>
+      </form>
+    </div>
 
-        <p>Netflix-clone Brasil</p>
-    </footer>
-  </body>
+    <div id="ligacao">
+      <h2>Dúvidas? Ligue para <a href="#">0800 070 7070</a></h2>
+    </div>
+
+    <div class="ajuda">
+      <div class="links">
+        <ul>
+          <li><a href="#">Perguntas frequentes</a></li>
+          <li><a href="#">Relações com investidores</a></li>
+          <li><a href="#">Formas de assistir</a></li>
+          <li><a href="#">Informações corporativas</a></li>
+          <li><a href="#">Só na Netflix-clone</a></li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li><a href="#">Central de Ajuda</a></li>
+          <li><a href="#">Carreiras</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Entre em contato</a></li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li><a href="#">Conta</a></li>
+          <li><a href="#">Resgatar cartão pré-pago</a></li>
+          <li><a href="#">Privacidade</a></li>
+          <li><a href="#">Teste de velocidade</a></li>
+        </ul>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li><a href="#">Media center</a></li>
+          <li><a href="#">Comprar cartão pré-pago</a></li>
+          <li><a href="#">Preferências de cookies</a></li>
+          <li><a href="#">Avisos legais</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <select class="selectIdioma">
+      <option value="pt-br">Português</option>
+      <option value="en-us">Inglês</option>
+    </select>
+    <p>Netflix-clone Brasil</p>
+  </footer>
+</body>
 </html>
