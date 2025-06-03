@@ -1,0 +1,37 @@
+.duvidas{
+    color: white;
+    display: grid;
+    
+    padding-left: 164px;
+    padding-top: 10px;
+    gap: 5px;
+}
+
+.duvidasRecentes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 981px;
+    height: 92px;
+    background-color: #414040;
+
+    & h4{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 20px;
+    }
+
+    &:hover{
+        background-color: #555;
+    }
+
+    & img{
+        width: 78px;
+        height: auto;
+    }
+}
+
+
+
+
