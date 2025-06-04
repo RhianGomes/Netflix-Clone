@@ -1,26 +1,25 @@
-body{
+body {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/papel-de-parede.png);
-
 }
 
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap; 
 }
 
 #logo-container img {
-    width: 150px;
+    width: 10em;
     height: auto;
 }
 
 #logo-container {
-    padding-left: 124px;
+    padding-left: 8em;
 }
 
 .header-actions {
-    padding-right: 171px;
+    padding-right: 10em;
 }
 
 .header-actions a {
@@ -35,7 +34,6 @@ body{
 .selectIdioma {
     padding: 10px 15px;
     border-radius: 8px;
-
     background-color: rgba(48, 48, 48, 0.459);
     color: white;
 }
@@ -78,11 +76,7 @@ body{
     align-items: center;
     position: relative;
     padding-top: 35px;
-
-    & input{
-        background-color: #3a3a3a50;
-    }
-
+    gap: 10px; 
 }
 
 .email-form input {
@@ -91,14 +85,15 @@ body{
     border: 2px solid gray;
     border-radius: 3px;
     padding-left: 10px;
+    background-color: #3a3a3a50;
 }
 
 .email-form label {
-    align-items: start;
-    position: absolute;
     color: gray;
     pointer-events: none;
+    position: absolute;
     left: 400px;
+    top: 12px;
 }
 
 .email-form button {
@@ -108,7 +103,6 @@ body{
     color: white;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10px;
     border-radius: 3px;
     border: none;
     padding: 14px 20px;
@@ -116,3 +110,64 @@ body{
     cursor: pointer;
 }
 
+
+@media (max-width: 700px) {
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo-container {
+        padding-left: 0;
+    }
+
+    .header-actions {
+        padding-right: 0;
+        margin-top: 10px;
+    }
+
+    #hero-section h1 {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .email-form {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 20px;
+    }
+
+    .email-form input {
+        width: 100%;
+        max-width: 300px;
+        height: 45px;
+    }
+
+    .email-form label {
+        position: static; 
+        margin-bottom: 5px;
+        left: auto;
+        top: auto;
+        font-size: 12px;
+        align-self: flex-start;
+    }
+
+    .email-form button {
+        width: 100%;
+        max-width: 300px;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .email-form input {
+        width: 400px;
+    }
+
+    .email-form label {
+        left: 310px;
+    }
+}

@@ -1,82 +1,127 @@
-#emAltaText h3{
+#emAltaText h3 {
     color: white;
-    
 }
 
-#emAlta{
+#emAlta {
     margin-top: 73px;
     padding-left: 150px;
-    
 }
 
-#emAlta h3{
+#emAlta h3 {
     padding-bottom: 15px;
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.galeria-numeros{
+.galeria-numeros {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
 }
 
-.galeria-numeros img{
+.galeria-numeros img {
     width: 200px;
     height: 200px;
     border-radius: 5px;
 }
 
-.galeria-numeros button{
+.galeria-numeros button {
     background: none;
     border: none;
-
     padding-right: 215px;
 }
 
-#btn-seta img{
+#btn-seta img {
     width: 25px;
     height: auto;
-
     background-color: #555;
     padding: 45px 5px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#btn-seta img:hover{
+#btn-seta img:hover {
     background-color: blue;
 }
 
-.item-numero{
-position: relative;
+.item-numero {
+    position: relative;
 }
 
-.imgNum{
+.imgNum {
     position: absolute;
     left: -35px;
     padding-top: 118px;
 }
 
-#num{
+#num {
     padding-top: 137px;
 }
-.item-numero img:nth-child(3){
+
+.item-numero img:nth-child(3) {
     width: 70px;
     height: auto;
 }
 
-.item-numero img:nth-child(1){
+.item-numero img:nth-child(1) {
     width: 35px;
     height: auto;
 }
 
-.logoN{
+.logoN {
     position: absolute;
 }
 
-.item-numero:hover{
+.item-numero:hover {
     transform: scale(1.1);
     transition-duration: 1s;
+}
+
+
+@media (max-width: 700px) {
+    #emAlta {
+        padding-left: 10px;
+        margin-top: 40px;
+    }
+
+    #emAlta h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .galeria-numeros {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 8px;
+        justify-items: center;
+    }
+
+    .galeria-numeros img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .galeria-numeros button {
+        padding-right: 0; 
+    }
+
+    #btn-seta img {
+        display: none;
+    }
+
+    .imgNum {
+        left: -20px;
+        padding-top: 80px;
+    }
+
+    #num {
+        padding-top: 95px;
+    }
+
+    .item-numero img:nth-child(3) {
+        width: 50px;
+    }
+
+    .item-numero img:nth-child(1) {
+        width: 25px;
+    }
 }

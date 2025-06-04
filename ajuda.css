@@ -39,3 +39,13 @@
     }
 
 }
+
+@media (max-width: 700px){
+    #ligacao{
+        padding-left: 20px;
+    }
+
+    .ajuda{
+        padding-left: 20px;
+    }
+}

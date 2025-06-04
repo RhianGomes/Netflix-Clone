@@ -1,42 +1,75 @@
-.duvidas{
+.duvidas {
     color: white;
     display: grid;
-    
+
     padding-left: 164px;
     padding-top: 10px;
     gap: 5px;
-
-    & h2{
-        padding-top: 35px;
-        padding-bottom: 12px;
-    }
 }
 
-.duvidasRecentes{
+.duvidas h2 {
+    padding-top: 35px;
+    padding-bottom: 12px;
+}
+
+.duvidasRecentes {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 981px;
-    height: 92px;
+    max-width: 90%;
+    height: auto;
+    min-height: 92px;
     background-color: #414040;
+    padding: 10px;
 
-    & h4{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 20px;
-    }
+    border-radius: 8px;
+    gap: 10px;
+}
 
-    &:hover{
-        background-color: #555;
-    }
+.duvidasRecentes h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
 
-    & img{
-        width: 78px;
-        height: auto;
-    }
+.duvidasRecentes:hover {
+    background-color: #555;
+}
+
+.duvidasRecentes img {
+    width: 78px;
+    height: auto;
+
+    margin-left: auto; 
 }
 
 
+@media (max-width: 700px) {
+    .duvidas {
+        padding-left: 25px;
+        padding-right: 10px;
+    }
 
+    .duvidas h2 {
+        text-align: center;
+        font-size: 18px;
+    }
 
+    .duvidasRecentes {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .duvidasRecentes h4 {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .duvidasRecentes img {
+        width: 60px;
+        margin-left: auto; 
+    }
+}
